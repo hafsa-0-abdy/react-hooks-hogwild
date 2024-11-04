@@ -4,8 +4,8 @@ import HogDetails from './HogDetails';
 import { Grid } from 'semantic-ui-react';
 
 function HogList({ hogs, setSelectedHog , selectedHog }) {
-	return (
-		<Grid container>
+    return (
+        <Grid container>
             {hogs.map(hog => (
                 <Grid.Column key={hog.name} width={4}>
                     <HogTile hog={hog} setSelectedHog={setSelectedHog} />
@@ -15,9 +15,7 @@ function HogList({ hogs, setSelectedHog , selectedHog }) {
                 </Grid.Column>
             ))}
         </Grid>
-        
-	);
-    
+    );
 }
 
 export default HogList;
