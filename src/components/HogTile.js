@@ -1,5 +1,5 @@
-import React from 'react';
-import { Card } from 'semantic-ui-react';
+import React from "react";
+import { Card } from "semantic-ui-react";
 
 function HogTile({ hog, setSelectedHog }) {
     return (
